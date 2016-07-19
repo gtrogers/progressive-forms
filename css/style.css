@@ -1,0 +1,70 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#content {
+    padding-top: 64px;
+    padding-left: 64px;
+}
+
+h1 {
+    padding-left: 8px;
+}
+
+fieldset {
+    max-width: 400px;
+    padding: 16px;
+    margin: 8px;
+    border: none;
+    background-color: #d8dbe2;
+}
+
+legend {
+    font-style: italic;
+    margin-bottom: 16px;
+    padding-lefT: 0px;
+}
+
+.complete {
+    background-color: ##a9bcd0;
+}
+
+.js-show {
+    display: none;
+}
+
+.js-hide {
+    display: none;
+}
+
+.input-container {
+    padding-left: 100px;
+}
+
+.label-text {
+    float: left;
+}
+
+.next {
+   float: right; 
+}
+
+.submit {
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    float: right;
+}
+
+.done {
+    background-color: #58a4b0;
+}
+
+.disabled {
+    background: none;
+    border: none; 
+}

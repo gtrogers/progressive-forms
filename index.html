@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Title Goes Here</title>
+        <script type="text/javascript" charset="utf-8">
+            document.write('<style type="text/css" media="screen">.start-hidden { display: none; }</style>');
+        </script>
+    </head>
+
+    <body id="body">
+
+        <div id="content">
+            <h1>Form Example</h1>
+            <form action="">
+                <fieldset data-step="1">
+                    <label for="name-field">
+                        <div class="label-text">Name:</div>
+                        <div class="input-container">
+                            <input id="name-field" name="name-field" type="text">
+                        </div>
+                        <a href="" class="next js-next js-show">Next -></a>
+                        <a href="" class="next js-change js-hide">Change</a>
+                    </label>
+                </fieldset>
+                <fieldset data-step="2" class="start-hidden">
+                    <label for="postcode-field">
+                        <div class="label-text">Postcode:</div>
+                        <div class="input-container">
+                            <input id="postcode-field" name="postcode-field" type="text">
+                        </div>
+                        <a href="" class="next js-next js-show">Next -></a>
+                        <a href="" class="next js-change js-hide">Change</a>
+                    </label>
+                </fieldset>
+                <fieldset data-step="3" class="start-hidden">
+                    <label for="colour-field">
+                        <legend>Pick your favourite colour</legend>
+                        <div class="label-text">Colour:</div>
+                        <div class="input-container">
+                            <select name="colour-field" id="colour-field">
+                                <option value="red">Red</option>
+                                <option value="green">Green</option>
+                                <option value="blue">Blue</option>
+                            </select>
+                        </div>
+                        <a href="" class="next js-next js-show">Next -></a>
+                        <a href="" class="next js-change js-hide">Change</a>
+                    </label>
+                </fieldset>
+                <fieldset data-step="4" class="done start-hidden">
+                        <input class="button" type="submit"></input>
+                </fieldset>
+            </form>
+        </div>
+
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
